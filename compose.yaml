@@ -1,0 +1,36 @@
+﻿services:
+  bhd.documents.api:
+    build:
+      context: .s
+      dockerfile: BHD.Documents.API/Dockerfile
+    ports:
+      - "5001:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=BhdDocumentDB;User Id=sa;Password=SqlEdge@12345!;Encrypt=False;TrustServerCertificate=True
+    depends_on:
+      - sqlserver
+    restart: on-failure
+    networks:
+      - bhd-network
+    volumes:
+      - ./BHD.Documents.API/appsettings.json:/app/appsettings.json
+      - ./BHD.Documents.API/appsettings.Development.json:/app/appsettings.Development.json
+  sqlserver:
+    image: mcr.microsoft.com/azure-sql-edge
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=SqlEdge@12345!
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    networks:
+      - bhd-network
+
+networks:
+  bhd-network:
+    driver: bridge
+
+volumes:
+  sqlserver_data:

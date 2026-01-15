@@ -1,0 +1,36 @@
+﻿using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace Infraestructure.Migrations
+{
+    /// <inheritdoc />
+    public partial class ChangingEntities : Migration
+    {
+        /// <inheritdoc />
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.AlterColumn<byte[]>(
+                name: "EncodedFile",
+                table: "Documents",
+                type: "varbinary(max)",
+                nullable: true,
+                oldClrType: typeof(byte[]),
+                oldType: "VARBINARY(MAX)",
+                oldNullable: true);
+        }
+
+        /// <inheritdoc />
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.AlterColumn<byte[]>(
+                name: "EncodedFile",
+                table: "Documents",
+                type: "VARBINARY(MAX)",
+                nullable: true,
+                oldClrType: typeof(byte[]),
+                oldType: "varbinary(max)",
+                oldNullable: true);
+        }
+    }
+}
