@@ -1,7 +1,7 @@
 ﻿services:
   bhd.documents.api:
     build:
-      context: .s
+      context: .
       dockerfile: BHD.Documents.API/Dockerfile
     ports:
       - "5001:8080"

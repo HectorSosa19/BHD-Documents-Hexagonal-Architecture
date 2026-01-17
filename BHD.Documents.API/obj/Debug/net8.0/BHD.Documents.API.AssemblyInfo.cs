@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BHD.Documents.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdce03267ff43361320f596e68d12e25fbfa5bc3")]
 [assembly: System.Reflection.AssemblyProductAttribute("BHD.Documents.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BHD.Documents.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

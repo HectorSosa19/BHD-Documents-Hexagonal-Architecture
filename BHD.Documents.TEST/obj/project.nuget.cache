@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KKeZqhcN4to=",
+  "dgSpecHash": "C984d5bgIYI=",
   "success": true,
-  "projectFilePath": "/Users/hectososa19/RiderProjects/BHD/src/BHD.Documents.TEST/BHD.Documents.TEST.csproj",
+  "projectFilePath": "/Users/hectososa19/RiderProjects/BHD-Documents-Hexagonal-Architecture/BHD.Documents.TEST/BHD.Documents.TEST.csproj",
   "expectedPackageFiles": [
     "/Users/hectososa19/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/hectososa19/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

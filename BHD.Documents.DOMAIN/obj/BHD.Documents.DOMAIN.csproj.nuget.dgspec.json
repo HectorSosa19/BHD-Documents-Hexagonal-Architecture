@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hectososa19/RiderProjects/BHD/src/BHD.Documents.DOMAIN/BHD.Documents.DOMAIN.csproj": {}
+    "/Users/hectososa19/RiderProjects/BHD-Documents-Hexagonal-Architecture/BHD.Documents.DOMAIN/BHD.Documents.DOMAIN.csproj": {}
   },
   "projects": {
-    "/Users/hectososa19/RiderProjects/BHD/src/BHD.Documents.DOMAIN/BHD.Documents.DOMAIN.csproj": {
+    "/Users/hectososa19/RiderProjects/BHD-Documents-Hexagonal-Architecture/BHD.Documents.DOMAIN/BHD.Documents.DOMAIN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hectososa19/RiderProjects/BHD/src/BHD.Documents.DOMAIN/BHD.Documents.DOMAIN.csproj",
+        "projectUniqueName": "/Users/hectososa19/RiderProjects/BHD-Documents-Hexagonal-Architecture/BHD.Documents.DOMAIN/BHD.Documents.DOMAIN.csproj",
         "projectName": "BHD.Documents.DOMAIN",
-        "projectPath": "/Users/hectososa19/RiderProjects/BHD/src/BHD.Documents.DOMAIN/BHD.Documents.DOMAIN.csproj",
+        "projectPath": "/Users/hectososa19/RiderProjects/BHD-Documents-Hexagonal-Architecture/BHD.Documents.DOMAIN/BHD.Documents.DOMAIN.csproj",
         "packagesPath": "/Users/hectososa19/.nuget/packages/",
-        "outputPath": "/Users/hectososa19/RiderProjects/BHD/src/BHD.Documents.DOMAIN/obj/",
+        "outputPath": "/Users/hectososa19/RiderProjects/BHD-Documents-Hexagonal-Architecture/BHD.Documents.DOMAIN/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hectososa19/.nuget/NuGet/NuGet.Config"
